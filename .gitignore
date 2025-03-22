@@ -1,0 +1,36 @@
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Large data files
+*.csv
+*.h5
+*.pkl
+
+# Environment files
+.env
+.venv
+env/
+venv/
+
+# Local configuration
+.DS_Store
+
+# Simulation output files
+simulation/output/
+*.log
+
+# Model checkpoints (often large)
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.model
+
+# Unreal Engine files (if using)
+*.uasset
+*.umap
+Saved/
+Intermediate/
